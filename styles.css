@@ -1,0 +1,69 @@
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px 60px 70px;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+
+.header-links{
+    justify-content: flex-end;
+}
+
+/*
+emove the underline from all hyperlinks.
+Set the default color for all links.
+Set the color for links when the mouse hovers over them.
+Set the color for visited links.
+Set the color for active links (when the mouse is pressed down on them).
+*/
+a:visited, a:active, a, a:hover {
+    color: #E5E7EB;
+    font-size:18px;
+    text-decoration: none;
+  }
+
+.hero-container,
+.header-container 
+{
+    background-color: #1f2937;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px 70px 70px;
+}
+.hero-content-container {
+    flex-direction: column;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.hero-content-image {
+    border: 1px solid black;
+    width:800px;
+    margin: 20px 20px;
+    color: white;
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+}
+
+h1 {
+    font-size: 48pfx;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+button {
+    color:white;
+    background-color:#3882F6;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
