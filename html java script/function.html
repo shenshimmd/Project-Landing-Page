@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Function</title>
+</head>
+<body>
+    <script>
+        let add7 = (number) => number + 7;
+        //function add(number) => return (number + 7);
+        // try to use arrow function to get the result.
+        console.log(add7(3));
+
+        function multiply(a, b) {
+            return (a * b)
+        }
+        console.log(multiply(3,5));
+        //Write a function called multiply that takes 2 numbers and returns their product.
+
+        //Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+        function capitalize (string) {
+            const a = string.charAt(0);
+            return a.toUpperCase();
+        }
+        console.log(capitalize('uu'));
+        console.log(capitalize('Asdfw'));
+        console.log(capitalize('BoTh'));
+
+        function lastLetter (string) {
+            return string.charAt(string.length - 1);
+        }
+        //get the last letter from a string, use string.charAt, and string.length - 1 to get the last letter position.
+        console.log(lastLetter('abcd'));
+    </script>
+</body>
+</html>
